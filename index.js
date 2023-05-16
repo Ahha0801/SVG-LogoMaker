@@ -1,7 +1,3 @@
-// const shape = new Triangle();
-// shape.setColor("blue");
-// expect(shape.render()).toEqual('<polygon points="150, 18 244, 182 56, 182" fill="blue" />');
-
 import inquirer from "inquirer";
 import { writeFile } from "fs";
 import SVG from "./lib/svg.js";
@@ -28,15 +24,14 @@ const writeToFile = ({ text, textC, shape, shapeC }) => {
   }
 
   generatedShape.setColor(shapeC);
-
   const svg = new SVG();
-
   svg.setText(text, textC);
   svg.setShape(generatedShape);
   return writeFile("examplesvg.svg", svg.render(), (err) =>
     err ? console.error(err) : console.log("Logo generated!")
   );
 };
+
 function init() {
   inquirer
     .prompt([
