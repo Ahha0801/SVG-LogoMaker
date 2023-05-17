@@ -33,7 +33,7 @@ N/A
 Each shape class (Circle, Square, and Triangle) is tested for a render() method that returns a string for the corresponfing SVG file matching color and text requests. Type "npm test" in the command line and Jest will run all three tests.
 ## Screen Shots
 <img width="637" alt="Screen Shot 2023-05-16 at 10 35 43 AM" src="https://github.com/Ahha0801/SVG-LogoMaker/assets/128229173/9d6906f5-fc19-424f-9db2-dad74c1fdf4b">
-Video Demo 
+Video Demo Link : https://github.com/Ahha0801/SVG-LogoMaker/assets/128229173/96e55afe-da9f-4106-802b-f3d4c772dcdb
 
 ## Questions
 
